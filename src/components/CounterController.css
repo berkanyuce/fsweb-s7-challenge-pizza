@@ -1,0 +1,11 @@
+
+h5 {
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+.counter {
+    padding-right: 2rem;
+    display: flex;
+    margin: 0;
+    height: 2.5rem;
+}

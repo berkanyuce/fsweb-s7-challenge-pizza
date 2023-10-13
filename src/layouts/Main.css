@@ -1,0 +1,43 @@
+* {
+    margin: 0 auto;
+    font-family: 'Barlow', sans-serif;
+}
+.header {
+    display: flex;
+    text-align: center;
+    height: 10rem;
+    background-color: #CE2829;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-logo {
+    margin-top: 2rem;
+    width: 30%;
+    height: 4rem;
+    background-image: url(/Assets/logo.svg);
+    background-size: cover;
+
+}
+.header nav {
+    width: 40%;
+}
+.breadcrumb-item {
+    margin: 0;
+}
+.breadcrumb-item a {
+    text-decoration: none;
+    color: white;
+}
+.breadcrumb-item.active {
+    font-weight: bold;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.order {
+    width: 40%;
+    text-align: left;
+}

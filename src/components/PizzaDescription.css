@@ -1,0 +1,29 @@
+h4 {
+    padding: 2rem 0 1rem 0;
+}
+
+.baz-secim {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.baz-secim h3 {
+    margin: 0 ;
+    text-align: left;
+}
+.baz-secim div {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.baz-secim p {
+    margin: 0 0 0 10rem;
+    text-align: right;
+}
+
+.item-description {
+    padding: 1rem 0 1rem 0;
+}

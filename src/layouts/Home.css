@@ -1,0 +1,38 @@
+
+.content {
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(/Assets/mvp-banner.png);
+    background-size: cover;
+    height: 100vh;
+}
+.logo {
+    margin-top: 8rem;
+    width: 30%;
+    height: 4rem;
+    background-image: url(/Assets/logo.svg);
+    background-size: cover;
+
+}
+.slogan {
+    width: 30%;
+    padding: 4rem;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+
+}
+
+.aciktim {
+    background-color: #FDC913;
+    padding: 1rem 3rem;
+    border-radius: 20% 20% 20% 20% / 50% 50% 50% 50%;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.aciktim:hover {
+    background-color: #f9e7a7;
+    transition: 0.5s;
+}

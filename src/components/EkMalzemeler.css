@@ -1,0 +1,11 @@
+.checkbox-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox-grid .FormGroup {
+  flex: 1 0 30%; /* Her sütunu %20 genişliğinde yapar */
+}
+
