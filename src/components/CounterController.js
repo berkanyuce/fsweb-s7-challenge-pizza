@@ -6,7 +6,7 @@ function CounterController(props) {
     <div className="counter">
         <Button
           color="warning"
-          disabled={props.sayac <= 0 ? true : false}
+          disabled={props.sayac <= 1 ? true : false}
           onClick={props.decrease}
           data-cy="decrease"
         >

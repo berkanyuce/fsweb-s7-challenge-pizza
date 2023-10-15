@@ -14,6 +14,9 @@ function Main() {
     const [selectedItems, setSelectedItems] = useState([]);
     const [priceOfPizza, setPriceOfPizza] = useState(85.50)
     const [counter, setCounter] = useState(1);
+    const [selectedBoyut, setSelectedBoyut] = useState("");
+    const [selectedHamur, setSelectedHamur] = useState("");
+
 
     return (
         <>
@@ -42,17 +45,24 @@ function Main() {
         <div class="order">
             <PizzaDescription priceOfPizza={priceOfPizza}/>
             <section>
-                <BoyutSec />
-                <HamurSec />
+                <BoyutSec selectedBoyut={selectedBoyut} setSelectedBoyut={setSelectedBoyut}/>
+                <HamurSec selectedHamur={selectedHamur} setSelectedHamur={setSelectedHamur}/>
             </section>
             <EkMalzemeler selectedItems={selectedItems} setSelectedItems={setSelectedItems}/>
             <SiparisNotu />
             <section>
                 <Counter counter={counter} setCounter={setCounter}/>
-                <SiparisToplami priceOfPizza={priceOfPizza} selectedItems={selectedItems} counter={counter}/>
+                <SiparisToplami 
+                    priceOfPizza={priceOfPizza} 
+                    selectedItems={selectedItems} 
+                    counter={counter} 
+                    selectedBoyut={selectedBoyut.boyutlar} 
+                    selectedHamur={selectedHamur.kalinlik}
+                />
             </section>
             
         </div>
+        
         </>
     )
 }
